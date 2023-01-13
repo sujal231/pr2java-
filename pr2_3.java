@@ -1,35 +1,32 @@
-import java.util.ArrayList;
 
 class pr{
 
     public static void main(String[] args) 
     {
-        int max=z[0];
-        int min=z[0];
-        ArrayList<Integer>z =new ArrayList<>();
-        z.add(124);
-        z.add(1244);
-        z.add(12);
-        for(int n : z)
-        {
-            System.out.println(n);
+        int z[]={12,312,42,1,34,231,143};
+        int max;
+        int min;
+        max=z[0];
+        min=z[0];
+        for (int i : z) {
+            System.out.println(i);       
         }
-        for(int n : z)
+        for(int i : z)
         {
-            if(n > max)
+            if(i > max)
             {
-                max=n;
+                max=i;
             }
         }
-        for(int n : z)
+        for(int i : z)
         {
-            if(n <= min)
+            if(i <= min)
             {
-                min=n;
+                min=i;
             }
         }
-        System.out.println(max);  
-        System.out.println(min);  
+        System.out.println("MAX= "+max);  
+        System.out.println("MIN= "+min);  
         
     }
 }
