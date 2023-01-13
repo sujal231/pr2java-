@@ -4,8 +4,8 @@ class pr{
 
     public static void main(String[] args) 
     {
-        int max=0;
-        int min=1334567;
+        int max=z[0];
+        int min=[0];
         ArrayList<Integer>z =new ArrayList<>();
         z.add(124);
         z.add(1244);
