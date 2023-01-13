@@ -5,7 +5,7 @@ class pr{
     public static void main(String[] args) 
     {
         int max=z[0];
-        int min=[0];
+        int min=z[0];
         ArrayList<Integer>z =new ArrayList<>();
         z.add(124);
         z.add(1244);
